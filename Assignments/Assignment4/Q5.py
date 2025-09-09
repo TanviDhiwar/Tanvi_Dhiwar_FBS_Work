@@ -1,8 +1,10 @@
 #Fibonacci series
 no = int(input("Enter a no:"))
-a = 0
+a = -1
 b = 1
 print("Fibonacci series:")
 for i in range(no):
-    print(a, end =" ")
-    a,b = b, a + b
+    c = a + b
+    print(c, end =" ")
+
+    a,b = b,c
